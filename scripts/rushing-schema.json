@@ -1,32 +1,32 @@
 {
     "TableName": "players",
     "KeySchema": [
-      { "AttributeName": "Player", "KeyType": "HASH" },
-      { "AttributeName": "Team", "KeyType": "RANGE" }
+      { "AttributeName": "id", "KeyType": "HASH" },
+      { "AttributeName": "Player", "KeyType": "RANGE" }
     ],
     "AttributeDefinitions": [
+      { "AttributeName": "id", "AttributeType": "S" },
       { "AttributeName": "Player", "AttributeType": "S" },
-      { "AttributeName": "Team", "AttributeType": "S" },
-      { "AttributeName": "Status", "AttributeType": "S" }
+      { "AttributeName": "PlayerStatus", "AttributeType": "S" }
     ],
     "ProvisionedThroughput": {
       "ReadCapacityUnits": 1,
       "WriteCapacityUnits": 1
     },
     "GlobalSecondaryIndexes": [
-      {
+      { 
          "IndexName": "gsi1",
          "KeySchema": [
-            { "AttributeName": "Status", "KeyType": "HASH" },
+            { "AttributeName": "PlayerStatus", "KeyType": "HASH" },
             { "AttributeName": "Player", "KeyType": "RANGE" }
          ],
          "Projection": {
             "ProjectionType": "ALL"
          },
-         "ProvisionedThroughput": {
+         "ProvisionedThroughput": { 
             "ReadCapacityUnits": 1,
             "WriteCapacityUnits": 1
          }
       }
-   ],
+   ]
 }
