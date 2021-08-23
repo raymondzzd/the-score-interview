@@ -14,7 +14,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Shaun Hill",
@@ -31,7 +32,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Breshad Perriman",
@@ -48,7 +50,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Charlie Whitehurst",
@@ -65,7 +68,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Lance Dunbar",
@@ -82,7 +86,8 @@
     "1st%":33.3,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Mark Ingram",
@@ -99,7 +104,8 @@
     "1st%":23.9,
     "20+":4,
     "40+":2,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Reggie Bush",
@@ -116,7 +122,8 @@
     "1st%":16.7,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Lucky Whitehead",
@@ -133,7 +140,8 @@
     "1st%":40,
     "20+":1,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Brett Hundley",
@@ -150,7 +158,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Tyreek Hill",
@@ -167,7 +176,8 @@
     "1st%":41.7,
     "20+":4,
     "40+":2,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Randall Cobb",
@@ -184,7 +194,8 @@
     "1st%":40,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Aaron Ripkowski",
@@ -201,7 +212,8 @@
     "1st%":29.4,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Chris Moore",
@@ -218,7 +230,8 @@
     "1st%":33.3,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jeremy Hill",
@@ -235,7 +248,8 @@
     "1st%":18.9,
     "20+":5,
     "40+":3,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Kenneth Farrow",
@@ -252,7 +266,8 @@
     "1st%":16.7,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Brandon Tate",
@@ -269,7 +284,8 @@
     "1st%":66.7,
     "20+":1,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Philip Rivers",
@@ -286,7 +302,8 @@
     "1st%":14.3,
     "20+":0,
     "40+":0,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Denard Robinson",
@@ -303,7 +320,8 @@
     "1st%":9.8,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Donnie Jones",
@@ -320,7 +338,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Cameron Artis-Payne",
@@ -337,7 +356,8 @@
     "1st%":13.9,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Kevin Hogan",
@@ -354,7 +374,8 @@
     "1st%":62.5,
     "20+":1,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Robert Turbin",
@@ -371,7 +392,8 @@
     "1st%":42.6,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Robert Griffin III",
@@ -388,7 +410,8 @@
     "1st%":32.3,
     "20+":1,
     "40+":0,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Rhett Ellison",
@@ -405,7 +428,8 @@
     "1st%":100,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Rashad Jennings",
@@ -422,7 +446,8 @@
     "1st%":16,
     "20+":3,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Marcel Reece",
@@ -439,7 +464,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Dontari Poe",
@@ -456,7 +482,8 @@
     "1st%":100,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Cardale Jones",
@@ -473,7 +500,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Nick Foles",
@@ -490,7 +518,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Tyler Boyd",
@@ -507,7 +536,8 @@
     "1st%":50,
     "20+":1,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Tyrod Taylor",
@@ -524,7 +554,8 @@
     "1st%":32.6,
     "20+":7,
     "40+":1,
-    "FUM":3
+    "FUM":3,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Antonio Brown",
@@ -541,7 +572,8 @@
     "1st%":33.3,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Javorius Allen",
@@ -558,7 +590,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Drew Brees",
@@ -575,7 +608,8 @@
     "1st%":30.4,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jamaal Charles",
@@ -592,7 +626,8 @@
     "1st%":25,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"LeSean McCoy",
@@ -609,7 +644,8 @@
     "1st%":23.5,
     "20+":11,
     "40+":3,
-    "FUM":3
+    "FUM":3,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Brandon LaFell",
@@ -626,7 +662,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Cole Beasley",
@@ -643,7 +680,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Quincy Enunwa",
@@ -660,7 +698,8 @@
     "1st%":100,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Bryan Walters",
@@ -677,7 +716,8 @@
     "1st%":100,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Derek Anderson",
@@ -694,7 +734,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Sam Koch",
@@ -711,7 +752,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jon Ryan",
@@ -728,7 +770,8 @@
     "1st%":50,
     "20+":1,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Adrian Peterson",
@@ -745,7 +788,8 @@
     "1st%":8.1,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Tim Hightower",
@@ -762,7 +806,8 @@
     "1st%":24.1,
     "20+":4,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Malcolm Brown",
@@ -779,7 +824,8 @@
     "1st%":5.6,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Dwayne Washington",
@@ -796,7 +842,8 @@
     "1st%":12.2,
     "20+":1,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Rex Burkhead",
@@ -813,7 +860,8 @@
     "1st%":31.1,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Scott Tolzien",
@@ -830,7 +878,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jonathan Grimes",
@@ -847,7 +896,8 @@
     "1st%":21.7,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Russell Wilson",
@@ -864,7 +914,8 @@
     "1st%":22.2,
     "20+":0,
     "40+":0,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Cameron Meredith",
@@ -881,7 +932,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Coby Fleener",
@@ -898,7 +950,8 @@
     "1st%":100,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Blaine Gabbert",
@@ -915,7 +968,8 @@
     "1st%":37.5,
     "20+":1,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Ty Montgomery",
@@ -932,7 +986,8 @@
     "1st%":26,
     "20+":5,
     "40+":1,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Zach Line",
@@ -949,7 +1004,8 @@
     "1st%":42.9,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"James Starks",
@@ -966,7 +1022,8 @@
     "1st%":14.3,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Devonta Freeman",
@@ -983,7 +1040,8 @@
     "1st%":26.9,
     "20+":7,
     "40+":2,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Eddie Lacy",
@@ -1000,7 +1058,8 @@
     "1st%":21.1,
     "20+":4,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Alex Smith",
@@ -1017,7 +1076,8 @@
     "1st%":18.8,
     "20+":1,
     "40+":0,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jeremy Langford",
@@ -1034,7 +1094,8 @@
     "1st%":19.4,
     "20+":1,
     "40+":0,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Don Jackson",
@@ -1051,7 +1112,8 @@
     "1st%":10,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Paul Lasike",
@@ -1068,7 +1130,8 @@
     "1st%":100,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Kenjon Barner",
@@ -1085,7 +1148,8 @@
     "1st%":33.3,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Ryan Tannehill",
@@ -1102,7 +1166,8 @@
     "1st%":25.6,
     "20+":0,
     "40+":0,
-    "FUM":4
+    "FUM":4,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Brandon Wilds",
@@ -1119,7 +1184,8 @@
     "1st%":10,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Tajae Sharpe",
@@ -1136,7 +1202,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jimmy Graham",
@@ -1153,7 +1220,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Paxton Lynch",
@@ -1170,7 +1238,8 @@
     "1st%":9.1,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"J.D. McKissic",
@@ -1187,7 +1256,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Landry Jones",
@@ -1204,7 +1274,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Percy Harvin",
@@ -1221,7 +1292,8 @@
     "1st%":100,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Robert Woods",
@@ -1238,7 +1310,8 @@
     "1st%":100,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Adam Thielen",
@@ -1255,7 +1328,8 @@
     "1st%":50,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Matt Moore",
@@ -1272,7 +1346,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jarvis Landry",
@@ -1289,7 +1364,8 @@
     "1st%":20,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Chris Hogan",
@@ -1306,7 +1382,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Chris Ivory",
@@ -1323,7 +1400,8 @@
     "1st%":17.9,
     "20+":2,
     "40+":2,
-    "FUM":5
+    "FUM":5,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jakeem Grant",
@@ -1340,7 +1418,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jordan Berry",
@@ -1357,7 +1436,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"John Brown",
@@ -1374,7 +1454,8 @@
     "1st%":100,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Matt Jones",
@@ -1391,7 +1472,8 @@
     "1st%":28.3,
     "20+":3,
     "40+":1,
-    "FUM":3
+    "FUM":3,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Matt McGloin",
@@ -1408,7 +1490,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Terrance West",
@@ -1425,7 +1508,8 @@
     "1st%":18.1,
     "20+":5,
     "40+":1,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Terrell Watson",
@@ -1442,7 +1526,8 @@
     "1st%":22.2,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Matt Asiata",
@@ -1459,7 +1544,8 @@
     "1st%":22.3,
     "20+":2,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Ted Ginn",
@@ -1476,7 +1562,8 @@
     "1st%":28.6,
     "20+":1,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Marqise Lee",
@@ -1493,7 +1580,8 @@
     "1st%":33.3,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Josh McCown",
@@ -1510,7 +1598,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jordan Todman",
@@ -1527,7 +1616,8 @@
     "1st%":33.3,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Tyler Ervin",
@@ -1544,7 +1634,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Alex Collins",
@@ -1561,7 +1652,8 @@
     "1st%":25.8,
     "20+":1,
     "40+":0,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Drew Kaser",
@@ -1578,7 +1670,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Josh Bellamy",
@@ -1595,7 +1688,8 @@
     "1st%":50,
     "20+":1,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Travis Benjamin",
@@ -1612,7 +1706,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Antone Smith",
@@ -1629,7 +1724,8 @@
     "1st%":10,
     "20+":0,
     "40+":0,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Thomas Rawls",
@@ -1646,7 +1742,8 @@
     "1st%":19.3,
     "20+":1,
     "40+":1,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Ameer Abdullah",
@@ -1663,7 +1760,8 @@
     "1st%":33.3,
     "20+":1,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Bryce Petty",
@@ -1680,7 +1778,8 @@
     "1st%":20,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jay Prosch",
@@ -1697,7 +1796,8 @@
     "1st%":75,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jay Cutler",
@@ -1714,7 +1814,8 @@
     "1st%":20,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Ka'Deem Carey",
@@ -1731,7 +1832,8 @@
     "1st%":12.5,
     "20+":1,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"DuJuan Harris",
@@ -1748,7 +1850,8 @@
     "1st%":15.8,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Peyton Barber",
@@ -1765,7 +1868,8 @@
     "1st%":18.2,
     "20+":1,
     "40+":1,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jared Goff",
@@ -1782,7 +1886,8 @@
     "1st%":12.5,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Matt Forte",
@@ -1799,7 +1904,8 @@
     "1st%":16.1,
     "20+":5,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Cordarrelle Patterson",
@@ -1816,7 +1922,8 @@
     "1st%":28.6,
     "20+":1,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"LeGarrette Blount",
@@ -1833,7 +1940,8 @@
     "1st%":22.4,
     "20+":7,
     "40+":3,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"John Kuhn",
@@ -1850,7 +1958,8 @@
     "1st%":66.7,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Arian Foster",
@@ -1867,7 +1976,8 @@
     "1st%":9.1,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Josh Huff",
@@ -1884,7 +1994,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Le'Veon Bell",
@@ -1901,7 +2012,8 @@
     "1st%":26.4,
     "20+":4,
     "40+":1,
-    "FUM":3
+    "FUM":3,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Sam Bradford",
@@ -1918,7 +2030,8 @@
     "1st%":15,
     "20+":1,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Valentino Blake",
@@ -1935,7 +2048,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Sammie Coates",
@@ -1952,7 +2066,8 @@
     "1st%":25,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Byron Marshall",
@@ -1969,7 +2084,8 @@
     "1st%":26.3,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Trevone Boykin",
@@ -1986,7 +2102,8 @@
     "1st%":12.5,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Cam Newton",
@@ -2003,7 +2120,8 @@
     "1st%":31.1,
     "20+":2,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Bobby Rainey",
@@ -2020,7 +2138,8 @@
     "1st%":23.5,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Terron Ward",
@@ -2037,7 +2156,8 @@
     "1st%":19.4,
     "20+":2,
     "40+":1,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Eli Rogers",
@@ -2054,7 +2174,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Eli Manning",
@@ -2071,7 +2192,8 @@
     "1st%":9.5,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Matt Cassel",
@@ -2088,7 +2210,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Tom Brady",
@@ -2105,7 +2228,8 @@
     "1st%":35.7,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"C.J. Anderson",
@@ -2122,7 +2246,8 @@
     "1st%":20,
     "20+":1,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jerome Felton",
@@ -2139,7 +2264,8 @@
     "1st%":62.5,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Juwan Thompson",
@@ -2156,7 +2282,8 @@
     "1st%":25,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Corey Grant",
@@ -2173,7 +2300,8 @@
     "1st%":18.8,
     "20+":1,
     "40+":1,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Alfred Morris",
@@ -2190,7 +2318,8 @@
     "1st%":21.7,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Braxton Miller",
@@ -2207,7 +2336,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Robby Anderson",
@@ -2224,7 +2354,8 @@
     "1st%":66.7,
     "20+":1,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Todd Gurley",
@@ -2241,7 +2372,8 @@
     "1st%":17.3,
     "20+":2,
     "40+":0,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Joe Flacco",
@@ -2258,7 +2390,8 @@
     "1st%":28.6,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Matthew Stafford",
@@ -2275,7 +2408,8 @@
     "1st%":40.5,
     "20+":1,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Mike Tolbert",
@@ -2292,7 +2426,8 @@
     "1st%":14.3,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Danny Woodhead",
@@ -2309,7 +2444,8 @@
     "1st%":31.6,
     "20+":2,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Carson Palmer",
@@ -2326,7 +2462,8 @@
     "1st%":21.4,
     "20+":0,
     "40+":0,
-    "FUM":5
+    "FUM":5,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Stepfan Taylor",
@@ -2343,7 +2480,8 @@
     "1st%":25,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Travis Kelce",
@@ -2360,7 +2498,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Josh Ferguson",
@@ -2377,7 +2516,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Carson Wentz",
@@ -2394,7 +2534,8 @@
     "1st%":32.6,
     "20+":0,
     "40+":0,
-    "FUM":4
+    "FUM":4,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Matt Schaub",
@@ -2411,7 +2552,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Christine Michael",
@@ -2428,7 +2570,8 @@
     "1st%":16.1,
     "20+":1,
     "40+":1,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Dak Prescott",
@@ -2445,7 +2588,8 @@
     "1st%":36.8,
     "20+":0,
     "40+":0,
-    "FUM":3
+    "FUM":3,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Odell Beckham",
@@ -2462,7 +2606,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"DeMarcus Ayers",
@@ -2479,7 +2624,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"George Farmer",
@@ -2496,7 +2642,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Will Tukuafu",
@@ -2513,7 +2660,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Chad Henne",
@@ -2530,7 +2678,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"James Wright",
@@ -2547,7 +2696,8 @@
     "1st%":50,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Giovani Bernard",
@@ -2564,7 +2714,8 @@
     "1st%":16.5,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Frank Gore",
@@ -2581,7 +2732,8 @@
     "1st%":19,
     "20+":1,
     "40+":0,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"EJ Manuel",
@@ -2598,7 +2750,8 @@
     "1st%":37.5,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Mike Wallace",
@@ -2615,7 +2768,8 @@
     "1st%":40,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Derek Carr",
@@ -2632,7 +2786,8 @@
     "1st%":12.8,
     "20+":0,
     "40+":0,
-    "FUM":3
+    "FUM":3,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Marcus Mariota",
@@ -2649,7 +2804,8 @@
     "1st%":31.7,
     "20+":3,
     "40+":1,
-    "FUM":7
+    "FUM":7,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jamize Olawale",
@@ -2666,7 +2822,8 @@
     "1st%":29.4,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Ezekiel Elliott",
@@ -2683,7 +2840,8 @@
     "1st%":28.3,
     "20+":14,
     "40+":3,
-    "FUM":5
+    "FUM":5,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Antonio Andrews",
@@ -2700,7 +2858,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jacquizz Rodgers",
@@ -2717,7 +2876,8 @@
     "1st%":22.5,
     "20+":3,
     "40+":1,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Golden Tate",
@@ -2734,7 +2894,8 @@
     "1st%":10,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Mike Davis",
@@ -2751,7 +2912,8 @@
     "1st%":21.1,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Mark Sanchez",
@@ -2768,7 +2930,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Rob Kelley",
@@ -2785,7 +2948,8 @@
     "1st%":17.3,
     "20+":4,
     "40+":2,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Aaron Rodgers",
@@ -2802,7 +2966,8 @@
     "1st%":37.3,
     "20+":3,
     "40+":0,
-    "FUM":3
+    "FUM":3,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Derrick Henry",
@@ -2819,7 +2984,8 @@
     "1st%":26.4,
     "20+":1,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Khiry Robinson",
@@ -2836,7 +3002,8 @@
     "1st%":12.5,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jay Ajayi",
@@ -2853,7 +3020,8 @@
     "1st%":23.1,
     "20+":10,
     "40+":4,
-    "FUM":4
+    "FUM":4,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Terrence Magee",
@@ -2870,7 +3038,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Corey Brown",
@@ -2887,7 +3056,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Doug Baldwin",
@@ -2904,7 +3074,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Kendall Wright",
@@ -2921,7 +3092,8 @@
     "1st%":100,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Sterling Shepard",
@@ -2938,7 +3110,8 @@
     "1st%":33.3,
     "20+":1,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Adam Humphries",
@@ -2955,7 +3128,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Tyler Lockett",
@@ -2972,7 +3146,8 @@
     "1st%":66.7,
     "20+":1,
     "40+":1,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Kyle Juszczyk",
@@ -2989,7 +3164,8 @@
     "1st%":60,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"C.J. Prosise",
@@ -3006,7 +3182,8 @@
     "1st%":10,
     "20+":1,
     "40+":1,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Akeem Hunt",
@@ -3023,7 +3200,8 @@
     "1st%":20,
     "20+":0,
     "40+":0,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Damien Williams",
@@ -3040,7 +3218,8 @@
     "1st%":22.9,
     "20+":1,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Keith Smith",
@@ -3057,7 +3236,8 @@
     "1st%":100,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Theo Riddick",
@@ -3074,7 +3254,8 @@
     "1st%":20.7,
     "20+":2,
     "40+":1,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Chris Johnson",
@@ -3091,7 +3272,8 @@
     "1st%":20,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Andrew Hawkins",
@@ -3108,7 +3290,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jimmy Garoppolo",
@@ -3125,7 +3308,8 @@
     "1st%":10,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Chris Thompson",
@@ -3142,7 +3326,8 @@
     "1st%":23.5,
     "20+":2,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Blake Bortles",
@@ -3159,7 +3344,8 @@
     "1st%":34.5,
     "20+":4,
     "40+":0,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Lorenzo Taliaferro",
@@ -3176,7 +3362,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Andrew Luck",
@@ -3193,7 +3380,8 @@
     "1st%":31.3,
     "20+":3,
     "40+":0,
-    "FUM":3
+    "FUM":3,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Andre Williams",
@@ -3210,7 +3398,8 @@
     "1st%":33.3,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Drew Butler",
@@ -3227,7 +3416,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Cody Kessler",
@@ -3244,7 +3434,8 @@
     "1st%":9.1,
     "20+":0,
     "40+":0,
-    "FUM":3
+    "FUM":3,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Bronson Hill",
@@ -3261,7 +3452,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Brian Hoyer",
@@ -3278,7 +3470,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jonathan Stewart",
@@ -3295,7 +3488,8 @@
     "1st%":21.6,
     "20+":6,
     "40+":1,
-    "FUM":3
+    "FUM":3,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Marquette King",
@@ -3312,7 +3506,8 @@
     "1st%":50,
     "20+":1,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Fozzy Whittaker",
@@ -3329,7 +3524,8 @@
     "1st%":17.5,
     "20+":1,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Colton Schmidt",
@@ -3346,7 +3542,8 @@
     "1st%":100,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Eric Ebron",
@@ -3363,7 +3560,8 @@
     "1st%":100,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Taylor Gabriel",
@@ -3380,7 +3578,8 @@
     "1st%":75,
     "20+":1,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Benny Cunningham",
@@ -3397,7 +3596,8 @@
     "1st%":19,
     "20+":2,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Paul Perkins",
@@ -3414,7 +3614,8 @@
     "1st%":19.6,
     "20+":2,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Tevin Coleman",
@@ -3431,7 +3632,8 @@
     "1st%":20.3,
     "20+":5,
     "40+":1,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Colin Kaepernick",
@@ -3448,7 +3650,8 @@
     "1st%":40.6,
     "20+":3,
     "40+":0,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Derek Watt",
@@ -3465,7 +3668,8 @@
     "1st%":100,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"J.J. Nelson",
@@ -3482,7 +3686,8 @@
     "1st%":75,
     "20+":1,
     "40+":1,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Bralon Addison",
@@ -3499,7 +3704,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Drew Stanton",
@@ -3516,7 +3722,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Darren McFadden",
@@ -3533,7 +3740,8 @@
     "1st%":20.8,
     "20+":1,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Doug Martin",
@@ -3550,7 +3758,8 @@
     "1st%":16,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Ben Roethlisberger",
@@ -3567,7 +3776,8 @@
     "1st%":18.8,
     "20+":0,
     "40+":0,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Ryan Mallett",
@@ -3584,7 +3794,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Darrius Heyward-Bey",
@@ -3601,7 +3812,8 @@
     "1st%":100,
     "20+":1,
     "40+":1,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Kevin White",
@@ -3618,7 +3830,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Brandon Bolden",
@@ -3635,7 +3848,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jonathan Williams",
@@ -3652,7 +3866,8 @@
     "1st%":22.2,
     "20+":1,
     "40+":0,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Amari Cooper",
@@ -3669,7 +3884,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"DeAngelo Williams",
@@ -3686,7 +3902,8 @@
     "1st%":20.4,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Lac Edwards",
@@ -3703,7 +3920,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Kellen Clemens",
@@ -3720,7 +3938,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Andy Janovich",
@@ -3737,7 +3956,8 @@
     "1st%":50,
     "20+":1,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Carlos Hyde",
@@ -3754,7 +3974,8 @@
     "1st%":22.1,
     "20+":7,
     "40+":2,
-    "FUM":4
+    "FUM":4,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Emmanuel Sanders",
@@ -3771,7 +3992,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Dexter McCluster",
@@ -3788,7 +4010,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Kirk Cousins",
@@ -3805,7 +4028,8 @@
     "1st%":41.2,
     "20+":0,
     "40+":0,
-    "FUM":3
+    "FUM":3,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Matthew Slater",
@@ -3822,7 +4046,8 @@
     "1st%":100,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Ryan Mathews",
@@ -3839,7 +4064,8 @@
     "1st%":24.5,
     "20+":6,
     "40+":0,
-    "FUM":3
+    "FUM":3,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Shane Vereen",
@@ -3856,7 +4082,8 @@
     "1st%":24.2,
     "20+":1,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Alfred Blue",
@@ -3873,7 +4100,8 @@
     "1st%":23,
     "20+":2,
     "40+":0,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Taiwan Jones",
@@ -3890,7 +4118,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Duke Johnson",
@@ -3907,7 +4136,8 @@
     "1st%":23.3,
     "20+":2,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"T.J. Yeldon",
@@ -3924,7 +4154,8 @@
     "1st%":16.2,
     "20+":0,
     "40+":0,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jalston Fowler",
@@ -3941,7 +4172,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Troymaine Pope",
@@ -3958,7 +4190,8 @@
     "1st%":27.3,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Melvin Gordon",
@@ -3975,7 +4208,8 @@
     "1st%":24,
     "20+":7,
     "40+":3,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Matt Ryan",
@@ -3992,7 +4226,8 @@
     "1st%":37.1,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Matt Barkley",
@@ -4009,7 +4244,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Terrelle Pryor",
@@ -4026,7 +4262,8 @@
     "1st%":25,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Brandon Burks",
@@ -4043,7 +4280,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Geno Smith",
@@ -4060,7 +4298,8 @@
     "1st%":50,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Ronnie Hillman",
@@ -4077,7 +4316,8 @@
     "1st%":13,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Michael Campanaro",
@@ -4094,7 +4334,8 @@
     "1st%":100,
     "20+":2,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Tavon Austin",
@@ -4111,7 +4352,8 @@
     "1st%":25,
     "20+":2,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Fitzgerald Toussaint",
@@ -4128,7 +4370,8 @@
     "1st%":14.3,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jeremy Maclin",
@@ -4145,7 +4388,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jamison Crowder",
@@ -4162,7 +4406,8 @@
     "1st%":50,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"De'Anthony Thomas",
@@ -4179,7 +4424,8 @@
     "1st%":25,
     "20+":1,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Marvin Jones",
@@ -4196,7 +4442,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Wendell Smallwood",
@@ -4213,7 +4460,8 @@
     "1st%":26,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Ryan Fitzpatrick",
@@ -4230,7 +4478,8 @@
     "1st%":21.2,
     "20+":0,
     "40+":0,
-    "FUM":3
+    "FUM":3,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Matt Darr",
@@ -4247,7 +4496,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"George Atkinson",
@@ -4264,7 +4514,8 @@
     "1st%":42.9,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Brandin Cooks",
@@ -4281,7 +4532,8 @@
     "1st%":16.7,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Chris Jones",
@@ -4298,7 +4550,8 @@
     "1st%":100,
     "20+":1,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jerick McKinnon",
@@ -4315,7 +4568,8 @@
     "1st%":13.2,
     "20+":2,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Paul Richardson",
@@ -4332,7 +4586,8 @@
     "1st%":100,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Shane Wynn",
@@ -4349,7 +4604,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Bilal Powell",
@@ -4366,7 +4622,8 @@
     "1st%":34.4,
     "20+":4,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jordan Howard",
@@ -4383,7 +4640,8 @@
     "1st%":27.8,
     "20+":10,
     "40+":2,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Darren Sproles",
@@ -4400,7 +4658,8 @@
     "1st%":23.4,
     "20+":1,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Joe Kerridge",
@@ -4417,7 +4676,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Russell Shepard",
@@ -4434,7 +4694,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jameis Winston",
@@ -4451,7 +4712,8 @@
     "1st%":18.9,
     "20+":0,
     "40+":0,
-    "FUM":4
+    "FUM":4,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Spencer Ware",
@@ -4468,7 +4730,8 @@
     "1st%":22,
     "20+":3,
     "40+":2,
-    "FUM":3
+    "FUM":3,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Cedric Peerman",
@@ -4485,7 +4748,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jacoby Brissett",
@@ -4502,7 +4766,8 @@
     "1st%":31.3,
     "20+":1,
     "40+":0,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Bradley Marquez",
@@ -4519,7 +4784,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Travaris Cadet",
@@ -4536,7 +4802,8 @@
     "1st%":25,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jordan Norwood",
@@ -4553,7 +4820,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jalen Richard",
@@ -4570,7 +4838,8 @@
     "1st%":16.9,
     "20+":5,
     "40+":1,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Latavius Murray",
@@ -4587,7 +4856,8 @@
     "1st%":26.7,
     "20+":5,
     "40+":1,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Quan Bray",
@@ -4604,7 +4874,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Lamar Miller",
@@ -4621,7 +4892,8 @@
     "1st%":19.4,
     "20+":7,
     "40+":1,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Kerwynn Williams",
@@ -4638,7 +4910,8 @@
     "1st%":44.4,
     "20+":3,
     "40+":1,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"DeAndre Washington",
@@ -4655,7 +4928,8 @@
     "1st%":21.8,
     "20+":7,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Mohamed Sanu",
@@ -4672,7 +4946,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Stevan Ridley",
@@ -4689,7 +4964,8 @@
     "1st%":33.3,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Kapri Bibbs",
@@ -4706,7 +4982,8 @@
     "1st%":24.1,
     "20+":1,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Stefon Diggs",
@@ -4723,7 +5000,8 @@
     "1st%":33.3,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Brock Osweiler",
@@ -4740,7 +5018,8 @@
     "1st%":43.3,
     "20+":1,
     "40+":0,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Isaiah Pead",
@@ -4757,7 +5036,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Andy Dalton",
@@ -4774,7 +5054,8 @@
     "1st%":37,
     "20+":0,
     "40+":0,
-    "FUM":5
+    "FUM":5,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Delanie Walker",
@@ -4791,7 +5072,8 @@
     "1st%":50,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Tom Savage",
@@ -4808,7 +5090,8 @@
     "1st%":33.3,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"D.J. Foster",
@@ -4825,7 +5108,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Zach Zenner",
@@ -4842,7 +5126,8 @@
     "1st%":25,
     "20+":1,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Julian Edelman",
@@ -4859,7 +5144,8 @@
     "1st%":25,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Corey Coleman",
@@ -4876,7 +5162,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Albert Wilson",
@@ -4893,7 +5180,8 @@
     "1st%":50,
     "20+":1,
     "40+":1,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Nelson Agholor",
@@ -4910,7 +5198,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Brandon McManus",
@@ -4927,7 +5216,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Mike Gillislee",
@@ -4944,7 +5234,8 @@
     "1st%":38.6,
     "20+":7,
     "40+":1,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Sean Mannion",
@@ -4961,7 +5252,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Knile Davis",
@@ -4978,7 +5270,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Charcandrick West",
@@ -4995,7 +5288,8 @@
     "1st%":15.9,
     "20+":2,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"David Johnson",
@@ -5012,7 +5306,8 @@
     "1st%":24.6,
     "20+":6,
     "40+":2,
-    "FUM":5
+    "FUM":5,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Justin Forsett",
@@ -5029,7 +5324,8 @@
     "1st%":14,
     "20+":1,
     "40+":1,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Pat McAfee",
@@ -5046,7 +5342,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Kenneth Dixon",
@@ -5063,7 +5360,8 @@
     "1st%":29.5,
     "20+":1,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Shaun Draughn",
@@ -5080,7 +5378,8 @@
     "1st%":20.3,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Martellus Bennett",
@@ -5097,7 +5396,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"DeMarco Murray",
@@ -5114,7 +5414,8 @@
     "1st%":21.8,
     "20+":4,
     "40+":2,
-    "FUM":3
+    "FUM":3,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Case Keenum",
@@ -5131,7 +5432,8 @@
     "1st%":35,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Donte Moncrief",
@@ -5148,7 +5450,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Charles Sims",
@@ -5165,7 +5468,8 @@
     "1st%":11.8,
     "20+":1,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Phillip Dorsett",
@@ -5182,7 +5486,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Andre Ellington",
@@ -5199,7 +5504,8 @@
     "1st%":11.8,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Bryce Treggs",
@@ -5216,7 +5522,8 @@
     "1st%":100,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Trevor Siemian",
@@ -5233,7 +5540,8 @@
     "1st%":21.4,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Daniel Lasco",
@@ -5250,7 +5558,8 @@
     "1st%":9.1,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Raheem Mostert",
@@ -5267,7 +5576,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Jeff Janis",
@@ -5284,7 +5594,8 @@
     "1st%":100,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Chris Prosinski",
@@ -5301,7 +5612,8 @@
     "1st%":100,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"James White",
@@ -5318,7 +5630,8 @@
     "1st%":20.5,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Mack Brown",
@@ -5335,7 +5648,8 @@
     "1st%":12.5,
     "20+":1,
     "40+":1,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"David Fales",
@@ -5352,7 +5666,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Devontae Booker",
@@ -5369,7 +5684,8 @@
     "1st%":17.2,
     "20+":0,
     "40+":0,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Orleans Darkwa",
@@ -5386,7 +5702,8 @@
     "1st%":23.3,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Marc Mariani",
@@ -5403,7 +5720,8 @@
     "1st%":100,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"C.J. Spiller",
@@ -5420,7 +5738,8 @@
     "1st%":66.7,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Will Fuller",
@@ -5437,7 +5756,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Isaiah Crowell",
@@ -5454,7 +5774,8 @@
     "1st%":22.7,
     "20+":8,
     "40+":3,
-    "FUM":2
+    "FUM":2,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Kenyan Drake",
@@ -5471,7 +5792,8 @@
     "1st%":27.3,
     "20+":1,
     "40+":1,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Tommylee Lewis",
@@ -5488,7 +5810,8 @@
     "1st%":33.3,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Larry Fitzgerald",
@@ -5505,7 +5828,8 @@
     "1st%":0,
     "20+":0,
     "40+":0,
-    "FUM":0
+    "FUM":0,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Dion Lewis",
@@ -5522,7 +5846,8 @@
     "1st%":21.9,
     "20+":0,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   },
   {
     "Player":"Johnny Holton",
@@ -5539,6 +5864,7 @@
     "1st%":33.3,
     "20+":1,
     "40+":0,
-    "FUM":1
+    "FUM":1,
+    "Status":"ACTIVE"
   }
 ]
