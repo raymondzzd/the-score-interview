@@ -54,4 +54,25 @@ We will evaluate you on your ability to solve the problem defined in the require
 If you have any questions regarding requirements, do not hesitate to email your contact at theScore for clarification.
 
 ### Installation and running this solution
-... TODO
+1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop)
+2. Pull [localstack](https://github.com/localstack/localstack) repo and run at port 4566
+    ```bash
+    docker run --rm -it -p 4566:4566 -p 4571:4571 localstack/localstack
+    ```
+3. Install [node.js v14.x](https://nodejs.org/en/download/)
+4. Upgrade npm to v7.x, then install the project packages specified in `package.json`
+    ```bash
+    npm install -g npm@latest
+    npm install
+    ```
+5. Install [aws-cli 2.x](https://aws.amazon.com/cli/)
+6. Create DynamoDB table as specified in `scripts/rushing-schema.json`. When list table, you should see table with the name `players`
+    ```bash
+    aws --endpoint-url=http://localhost:4566 dynamodb create-table --cli-input-json file://scripts/rushing-schema.json
+    aws --endpoint-url=http://localhost:4566 dynamodb list-tables
+    ```
+7. Load data from `rushing.json` into DDB using my script. You should see "Script completed." with no error messages after.
+    ```bash
+    npm run loadData
+    ```
+8. 
