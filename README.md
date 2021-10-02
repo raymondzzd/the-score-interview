@@ -57,7 +57,7 @@ If you have any questions regarding requirements, do not hesitate to email your 
 1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop)
 2. Pull [localstack](https://github.com/localstack/localstack) repo and run at port 4566
     ```bash
-    docker run --rm -it -p 4566:4566 -p 4571:4571 localstack/localstack
+    docker run -d --rm -it -p 4566:4566 -p 4571:4571 -e DISABLE_CORS_CHECKS=1 localstack/localstack
     ```
 3. Install [node.js v14.x](https://nodejs.org/en/download/)
 4. Upgrade npm to v7.x, then install the project packages specified in `package.json`

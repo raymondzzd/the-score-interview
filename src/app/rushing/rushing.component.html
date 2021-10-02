@@ -1,0 +1,63 @@
+<mat-form-field appearance="fill">
+  <mat-label>Filter by name</mat-label>
+  <input matInput type="text" name='filter' (click)="searching = true" #input />
+  <button mat-icon-button matSuffix (click)="input.value = ''; doFilter(''); searching = false" color="accent"
+          *ngIf="searching">
+    <mat-icon>clear</mat-icon>
+  </button>
+  <button mat-icon-button matSuffix (click)="doFilter(input.value)" color="accent">
+    <mat-icon>search</mat-icon>
+  </button>
+</mat-form-field>
+<br>
+<mat-form-field appearance="fill">
+  <mat-label>Sort the players by</mat-label>
+  <mat-select>
+    <mat-option value="0">Total Rushing Yards</mat-option>
+    <mat-option value="1">Longest Rush</mat-option>
+    <mat-option value="2">Total Rushing Touchdowns</mat-option>
+  </mat-select>
+</mat-form-field>
+
+<div class="mat-elevation-z8">
+  <table mat-table [dataSource]="dataSource">
+
+    <!-- Position Column -->
+    <ng-container matColumnDef="position">
+      <th mat-header-cell *matHeaderCellDef> No.</th>
+      <td mat-cell *matCellDef="let element"> {{element.position}} </td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef> Name</th>
+      <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+    </ng-container>
+
+    <!-- Weight Column -->
+    <ng-container matColumnDef="weight">
+      <th mat-header-cell *matHeaderCellDef> Weight</th>
+      <td mat-cell *matCellDef="let element"> {{element.weight}} </td>
+    </ng-container>
+
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="symbol">
+      <th mat-header-cell *matHeaderCellDef> Symbol</th>
+      <td mat-cell *matCellDef="let element"> {{element.symbol}} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+
+    <!-- Row shown when there is no matching data.-->
+    <tr class="mat-row" *matNoDataRow>
+      <td class="mat-cell" colspan="4">No data matching the filter "{{input.value}}"</td>
+    </tr>
+  </table>
+
+  <mat-paginator [pageSizeOptions]="[5, 10, 20, 50, 100]"
+                 showFirstLastButtons
+                 aria-label="Select page of periodic elements">
+  </mat-paginator>
+</div>
