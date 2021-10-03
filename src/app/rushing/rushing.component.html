@@ -1,6 +1,6 @@
 <mat-form-field appearance="fill">
   <mat-label>Filter by name</mat-label>
-  <input matInput type="text" name='filter' (click)="searching = true" #input />
+  <input matInput type="text" name='filter' [(ngModel)]="filterText" (click)="doFilter(input.value)" (keydown.enter)="doFilter(input.value)" #input/>
   <button mat-icon-button matSuffix (click)="input.value = ''; doFilter(''); searching = false" color="accent"
           *ngIf="searching">
     <mat-icon>clear</mat-icon>
@@ -12,43 +12,96 @@
 <br>
 <mat-form-field appearance="fill">
   <mat-label>Sort the players by</mat-label>
-  <mat-select>
-    <mat-option value="0">Total Rushing Yards</mat-option>
-    <mat-option value="1">Longest Rush</mat-option>
-    <mat-option value="2">Total Rushing Touchdowns</mat-option>
+  <mat-select [(value)]="selected" (selectionChange)="reloadData()">
+    <mat-option value="gsi1">Total Rushing Yards</mat-option>
+    <mat-option value="gsi2">Longest Rush</mat-option>
+    <mat-option value="gsi3">Total Rushing Touchdowns</mat-option>
   </mat-select>
 </mat-form-field>
 
 <div class="mat-elevation-z8">
   <table mat-table [dataSource]="dataSource">
 
-    <!-- Position Column -->
-    <ng-container matColumnDef="position">
-      <th mat-header-cell *matHeaderCellDef> No.</th>
-      <td mat-cell *matCellDef="let element"> {{element.position}} </td>
+    <!-- Player's name Column -->
+    <ng-container matColumnDef="Player">
+      <th mat-header-cell *matHeaderCellDef> Player</th>
+      <td mat-cell *matCellDef="let element"> {{element.Player}} </td>
     </ng-container>
 
-    <!-- Name Column -->
-    <ng-container matColumnDef="name">
-      <th mat-header-cell *matHeaderCellDef> Name</th>
-      <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+    <!-- Player's team abbreviation Column -->
+    <ng-container matColumnDef="Team">
+      <th mat-header-cell *matHeaderCellDef> Team</th>
+      <td mat-cell *matCellDef="let element"> {{element.Team}} </td>
     </ng-container>
 
-    <!-- Weight Column -->
-    <ng-container matColumnDef="weight">
-      <th mat-header-cell *matHeaderCellDef> Weight</th>
-      <td mat-cell *matCellDef="let element"> {{element.weight}} </td>
+    <!-- Player's position Column -->
+    <ng-container matColumnDef="Pos">
+      <th mat-header-cell *matHeaderCellDef> Position</th>
+      <td mat-cell *matCellDef="let element"> {{element.Pos}} </td>
     </ng-container>
 
-    <!-- Symbol Column -->
-    <ng-container matColumnDef="symbol">
-      <th mat-header-cell *matHeaderCellDef> Symbol</th>
-      <td mat-cell *matCellDef="let element"> {{element.symbol}} </td>
+    <ng-container matColumnDef="Att">
+      <th mat-header-cell *matHeaderCellDef> Rushing Attempts</th>
+      <td mat-cell *matCellDef="let element"> {{element.Att}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="AttG">
+      <th mat-header-cell *matHeaderCellDef> AttG</th>
+      <td mat-cell *matCellDef="let element"> {{element.AttG}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Yds">
+      <th mat-header-cell *matHeaderCellDef> Yds</th>
+      <td mat-cell *matCellDef="let element"> {{element.Yds}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Avg">
+      <th mat-header-cell *matHeaderCellDef> Avg</th>
+      <td mat-cell *matCellDef="let element"> {{element.Avg}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="YdsG">
+      <th mat-header-cell *matHeaderCellDef> YdsG</th>
+      <td mat-cell *matCellDef="let element"> {{element.YdsG}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="TD">
+      <th mat-header-cell *matHeaderCellDef> TD</th>
+      <td mat-cell *matCellDef="let element"> {{element.TD}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Lng">
+      <th mat-header-cell *matHeaderCellDef> Lng</th>
+      <td mat-cell *matCellDef="let element"> {{element.Lng}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="First">
+      <th mat-header-cell *matHeaderCellDef> First</th>
+      <td mat-cell *matCellDef="let element"> {{element.First}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="FirstPercent">
+      <th mat-header-cell *matHeaderCellDef> FirstPercent</th>
+      <td mat-cell *matCellDef="let element"> {{element.FirstPercent}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="TwentyPlus">
+      <th mat-header-cell *matHeaderCellDef> TwentyPlus</th>
+      <td mat-cell *matCellDef="let element"> {{element.TwentyPlus}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="FortyPlus">
+      <th mat-header-cell *matHeaderCellDef> FortyPlus</th>
+      <td mat-cell *matCellDef="let element"> {{element.FortyPlus}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="FUM">
+      <th mat-header-cell *matHeaderCellDef> FUM</th>
+      <td mat-cell *matCellDef="let element"> {{element.FUM}} </td>
     </ng-container>
 
     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
     <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
-
 
     <!-- Row shown when there is no matching data.-->
     <tr class="mat-row" *matNoDataRow>
@@ -56,8 +109,8 @@
     </tr>
   </table>
 
-  <mat-paginator [pageSizeOptions]="[5, 10, 20, 50, 100]"
+  <mat-paginator [pageSizeOptions]="[10, 20, 50, 100]"
                  showFirstLastButtons
-                 aria-label="Select page of periodic elements">
+                 aria-label="Select page of players">
   </mat-paginator>
 </div>

@@ -1,13 +1,9 @@
 import {DynamoDB} from "aws-sdk";
 import * as AWS from 'aws-sdk';
-import {DataMapper} from "@aws/dynamodb-data-mapper";
-import {CollectionUtils} from "../utilities";
 import {PlayerDataModel} from "../model/PlayerDataModel";
 import {DocumentClient} from "aws-sdk/clients/dynamodb";
 
 class DynamoDBClient {
-  static readonly BatchSize = 25;
-
   constructor() {
     AWS.config.update({
       region: 'us-east-1',
@@ -28,17 +24,6 @@ class DynamoDBClient {
       endpoint: 'http://localhost:4566'
     });
     return ddb;
-  };
-
-  getDataMapper = (tableNamePrefix: string): DataMapper => {
-    if (!tableNamePrefix) {
-      tableNamePrefix = "";
-    }
-    const mapper = new DataMapper({
-      client: this.getDynamoDBClient(),
-      tableNamePrefix: tableNamePrefix,
-    });
-    return mapper;
   };
 
   /**
@@ -69,25 +54,10 @@ class DynamoDBClient {
     }
   }
 
-  private recordCountInObject = (item: any) => {
-    let count = 0;
-    const keys = Object.keys(item);
-    for (const key of keys) {
-      const value = item[key];
-      if (Array.isArray(value)) {
-        count = count + value.length;
-      } else {
-        count = count + 1;
-      }
-    }
-
-    return count;
-  };
-
-  async getAllData(): Promise<PlayerDataModel[]> {
+  async getAllData(gsi: string): Promise<PlayerDataModel[]> {
     const params: DocumentClient.QueryInput = {
       TableName: "players",
-      IndexName: "gsi1",
+      IndexName: gsi,
       KeyConditionExpression: "PlayerStatus = :PlayerStatus",
       ExpressionAttributeValues: {
         ":PlayerStatus": "ACTIVE"
@@ -102,15 +72,16 @@ class DynamoDBClient {
     }
   }
 
-  async getByPlayerName(): Promise<PlayerDataModel[]> {
+  async getByPlayerName(gsi: string, filter: string): Promise<PlayerDataModel[]> {
     const params: DocumentClient.QueryInput = {
       TableName: "players",
-      IndexName: "gsi1",
-      KeyConditionExpression: "PlayerStatus = :PlayerStatus AND Player = :PlayerName",
+      IndexName: gsi,
+      KeyConditionExpression: "PlayerStatus = :PlayerStatus",
       ExpressionAttributeValues: {
         ":PlayerStatus": "ACTIVE",
-        ":PlayerName": "Shaun Hill"
-      }
+        ":PlayerName": filter
+      },
+      FilterExpression: 'contains (Player, :PlayerName)',
     };
     try {
       console.debug(`Params: ${JSON.stringify(params)}`);

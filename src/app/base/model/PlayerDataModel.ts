@@ -4,15 +4,16 @@ export class PlayerDataModel {
   "Pos": string;
   "Att": number;
   "AttG": number;
-  "Yds": number;
+  "Yds": string;
   "Avg": number;
   "YdsG": number;
-  "TD": number;
-  "Lng": number;
+  "TD": string;
+  "Lng": string;
   "First": number;
   "FirstPercent": number;
   "TwentyPlus": number;
   "FortyPlus": number;
   "FUM": number;
   "PlayerStatus": string;
+  "id": string;
 }

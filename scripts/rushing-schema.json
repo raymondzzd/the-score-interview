@@ -7,7 +7,10 @@
     "AttributeDefinitions": [
       { "AttributeName": "id", "AttributeType": "S" },
       { "AttributeName": "Player", "AttributeType": "S" },
-      { "AttributeName": "PlayerStatus", "AttributeType": "S" }
+      { "AttributeName": "PlayerStatus", "AttributeType": "S" },
+      { "AttributeName": "Yds", "AttributeType": "S" },
+      { "AttributeName": "Lng", "AttributeType": "S" },
+      { "AttributeName": "TD", "AttributeType": "S" }
     ],
     "ProvisionedThroughput": {
       "ReadCapacityUnits": 1,
@@ -18,7 +21,7 @@
          "IndexName": "gsi1",
          "KeySchema": [
             { "AttributeName": "PlayerStatus", "KeyType": "HASH" },
-            { "AttributeName": "Player", "KeyType": "RANGE" }
+            { "AttributeName": "Yds", "KeyType": "RANGE" }
          ],
          "Projection": {
             "ProjectionType": "ALL"
@@ -27,6 +30,34 @@
             "ReadCapacityUnits": 1,
             "WriteCapacityUnits": 1
          }
+      },
+      {
+        "IndexName": "gsi2",
+        "KeySchema": [
+          { "AttributeName": "PlayerStatus", "KeyType": "HASH" },
+          { "AttributeName": "Lng", "KeyType": "RANGE" }
+        ],
+        "Projection": {
+          "ProjectionType": "ALL"
+        },
+        "ProvisionedThroughput": {
+          "ReadCapacityUnits": 1,
+          "WriteCapacityUnits": 1
+        }
+      },
+      {
+        "IndexName": "gsi3",
+        "KeySchema": [
+          { "AttributeName": "PlayerStatus", "KeyType": "HASH" },
+          { "AttributeName": "TD", "KeyType": "RANGE" }
+        ],
+        "Projection": {
+          "ProjectionType": "ALL"
+        },
+        "ProvisionedThroughput": {
+          "ReadCapacityUnits": 1,
+          "WriteCapacityUnits": 1
+        }
       }
    ]
 }
