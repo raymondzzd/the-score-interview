@@ -20,84 +20,89 @@
 </mat-form-field>
 
 <div class="mat-elevation-z8">
-  <table mat-table [dataSource]="dataSource">
+  <table mat-table [dataSource]="dataSource" class="rushing-table">
 
     <!-- Player's name Column -->
     <ng-container matColumnDef="Player">
-      <th mat-header-cell *matHeaderCellDef> Player</th>
-      <td mat-cell *matCellDef="let element"> {{element.Player}} </td>
+      <th mat-header-cell *matHeaderCellDef>Player</th>
+      <td mat-cell *matCellDef="let element">{{element.Player}}</td>
     </ng-container>
 
     <!-- Player's team abbreviation Column -->
     <ng-container matColumnDef="Team">
-      <th mat-header-cell *matHeaderCellDef> Team</th>
-      <td mat-cell *matCellDef="let element"> {{element.Team}} </td>
+      <th mat-header-cell *matHeaderCellDef>Team </th>
+      <td mat-cell *matCellDef="let element">{{element.Team}}</td>
     </ng-container>
 
     <!-- Player's position Column -->
     <ng-container matColumnDef="Pos">
-      <th mat-header-cell *matHeaderCellDef> Position</th>
-      <td mat-cell *matCellDef="let element"> {{element.Pos}} </td>
+      <th mat-header-cell *matHeaderCellDef>Position</th>
+      <td mat-cell *matCellDef="let element">{{element.Pos}}</td>
     </ng-container>
 
     <ng-container matColumnDef="Att">
-      <th mat-header-cell *matHeaderCellDef> Rushing Attempts</th>
-      <td mat-cell *matCellDef="let element"> {{element.Att}} </td>
+      <th mat-header-cell *matHeaderCellDef>Rushing Attempts</th>
+      <td mat-cell *matCellDef="let element">{{element.Att}}</td>
     </ng-container>
 
     <ng-container matColumnDef="AttG">
-      <th mat-header-cell *matHeaderCellDef> AttG</th>
-      <td mat-cell *matCellDef="let element"> {{element.AttG}} </td>
+      <th mat-header-cell *matHeaderCellDef>Rushing Attempts/Game</th>
+      <td mat-cell *matCellDef="let element">{{element.AttG}}</td>
     </ng-container>
 
     <ng-container matColumnDef="Yds">
-      <th mat-header-cell *matHeaderCellDef> Yds</th>
-      <td mat-cell *matCellDef="let element"> {{element.Yds}} </td>
+      <th mat-header-cell *matHeaderCellDef>Total Rushing Yards</th>
+      <td mat-cell *matCellDef="let element">{{element.Yds}}</td>
     </ng-container>
 
     <ng-container matColumnDef="Avg">
-      <th mat-header-cell *matHeaderCellDef> Avg</th>
-      <td mat-cell *matCellDef="let element"> {{element.Avg}} </td>
+      <th mat-header-cell *matHeaderCellDef>Rushing Average Yards/Attempt</th>
+      <td mat-cell *matCellDef="let element">{{element.Avg}}</td>
     </ng-container>
 
     <ng-container matColumnDef="YdsG">
-      <th mat-header-cell *matHeaderCellDef> YdsG</th>
-      <td mat-cell *matCellDef="let element"> {{element.YdsG}} </td>
+      <th mat-header-cell *matHeaderCellDef>Rushing Yards/Game</th>
+      <td mat-cell *matCellDef="let element">{{element.YdsG}}</td>
     </ng-container>
 
     <ng-container matColumnDef="TD">
-      <th mat-header-cell *matHeaderCellDef> TD</th>
-      <td mat-cell *matCellDef="let element"> {{element.TD}} </td>
+      <th mat-header-cell *matHeaderCellDef>Total Rushing Touchdowns</th>
+      <td mat-cell *matCellDef="let element">{{element.TD}}</td>
     </ng-container>
 
     <ng-container matColumnDef="Lng">
-      <th mat-header-cell *matHeaderCellDef> Lng</th>
-      <td mat-cell *matCellDef="let element"> {{element.Lng}} </td>
+      <th mat-header-cell *matHeaderCellDef>Longest Rush</th>
+      <td mat-cell *matCellDef="let element">{{element.Lng}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="LngTD">
+      <th mat-header-cell *matHeaderCellDef>(touchdown?)</th>
+      <td mat-cell *matCellDef="let element">{{element.LngTD}}</td>
     </ng-container>
 
     <ng-container matColumnDef="First">
-      <th mat-header-cell *matHeaderCellDef> First</th>
-      <td mat-cell *matCellDef="let element"> {{element.First}} </td>
+      <th mat-header-cell *matHeaderCellDef>First Downs</th>
+      <td mat-cell *matCellDef="let element">{{element.First}}</td>
     </ng-container>
 
     <ng-container matColumnDef="FirstPercent">
-      <th mat-header-cell *matHeaderCellDef> FirstPercent</th>
-      <td mat-cell *matCellDef="let element"> {{element.FirstPercent}} </td>
+      <th mat-header-cell *matHeaderCellDef>First Down%</th>
+      <td mat-cell *matCellDef="let element">{{element.FirstPercent}}</td>
     </ng-container>
 
     <ng-container matColumnDef="TwentyPlus">
-      <th mat-header-cell *matHeaderCellDef> TwentyPlus</th>
-      <td mat-cell *matCellDef="let element"> {{element.TwentyPlus}} </td>
+      <th mat-header-cell *matHeaderCellDef>20+ Yards Each</th>
+      <td mat-cell *matCellDef="let element">{{element.TwentyPlus}}</td>
     </ng-container>
 
     <ng-container matColumnDef="FortyPlus">
-      <th mat-header-cell *matHeaderCellDef> FortyPlus</th>
-      <td mat-cell *matCellDef="let element"> {{element.FortyPlus}} </td>
+      <th mat-header-cell *matHeaderCellDef>40+ Yards Each</th>
+      <td mat-cell *matCellDef="let element">{{element.FortyPlus}}</td>
     </ng-container>
 
     <ng-container matColumnDef="FUM">
-      <th mat-header-cell *matHeaderCellDef> FUM</th>
-      <td mat-cell *matCellDef="let element"> {{element.FUM}} </td>
+      <th mat-header-cell *matHeaderCellDef>Fumbles</th>
+      <td mat-cell *matCellDef="let element">{{element.FUM}}</td>
     </ng-container>
 
     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>

@@ -8,9 +8,9 @@
       { "AttributeName": "id", "AttributeType": "S" },
       { "AttributeName": "Player", "AttributeType": "S" },
       { "AttributeName": "PlayerStatus", "AttributeType": "S" },
-      { "AttributeName": "Yds", "AttributeType": "S" },
-      { "AttributeName": "Lng", "AttributeType": "S" },
-      { "AttributeName": "TD", "AttributeType": "S" }
+      { "AttributeName": "Yds", "AttributeType": "N" },
+      { "AttributeName": "Lng", "AttributeType": "N" },
+      { "AttributeName": "TD", "AttributeType": "N" }
     ],
     "ProvisionedThroughput": {
       "ReadCapacityUnits": 1,

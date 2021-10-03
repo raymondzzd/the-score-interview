@@ -13,7 +13,7 @@ import {dynamoDBClient} from "../base/api/DynamoDBClient";
 export class RushingComponent implements OnInit {
   // @ViewChild(MatSort) sort: MatSort;
   @ViewChild(MatPaginator) paginator: MatPaginator;
-  displayedColumns: string[] = ['Player', 'Team', 'Pos', 'Att', 'AttG', 'Yds', 'Avg', 'YdsG', 'TD', 'Lng', 'First', 'FirstPercent', 'TwentyPlus', 'FortyPlus', 'FUM'];
+  displayedColumns: string[] = ['Player', 'Team', 'Pos', 'Att', 'AttG', 'Yds', 'Avg', 'YdsG', 'TD', 'Lng', 'LngTD', 'First', 'FirstPercent', 'TwentyPlus', 'FortyPlus', 'FUM'];
   dataSource: any;
   searching: boolean = false;
   filterText: string = '';

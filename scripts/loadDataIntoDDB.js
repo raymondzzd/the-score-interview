@@ -28,26 +28,28 @@ async function main() {
 }
 
 function setPutPayload(player) {
+  const LngTD = player.Lng.toString().indexOf('T') > -1;
   return {
     TableName: "players",
     Item: {
-      "id": uuidv4(),
+      "id": uuidv4(), // TODO: need to checking collision and retry
       "Player": player.Player,
       "Team": player.Team,
       "Pos": player.Pos,
       "Att": player.Att,
       "AttG": player['Att/G'],
-      "Yds": player.Yds.toString(),
+      "Yds": Number(player.Yds.toString().replace(",", "")),
       "Avg": player.Avg,
       "YdsG": player['Yds/G'],
-      "TD": player.TD.toString(),
-      "Lng": player.Lng.toString(),
+      "TD": player.TD,
+      "Lng": Number(player.Lng.toString().replace("T", "")),
+      "LngTD": LngTD,
       "First": player['1st'],
       "FirstPercent": player['1st%'],
       "TwentyPlus": player['20+'],
       "FortyPlus": player['40+'],
       "FUM": player.FUM,
-      "PlayerStatus": player.Status
+      "PlayerStatus": "ACTIVE"
     }
   };
 }

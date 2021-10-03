@@ -61,7 +61,8 @@ class DynamoDBClient {
       KeyConditionExpression: "PlayerStatus = :PlayerStatus",
       ExpressionAttributeValues: {
         ":PlayerStatus": "ACTIVE"
-      }
+      },
+      ScanIndexForward: false
     };
     try {
       console.debug(`Params: ${JSON.stringify(params)}`);
@@ -82,6 +83,7 @@ class DynamoDBClient {
         ":PlayerName": filter
       },
       FilterExpression: 'contains (Player, :PlayerName)',
+      ScanIndexForward: false
     };
     try {
       console.debug(`Params: ${JSON.stringify(params)}`);
