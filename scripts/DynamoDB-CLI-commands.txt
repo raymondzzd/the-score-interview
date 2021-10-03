@@ -1,0 +1,11 @@
+aws --endpoint-url=http://localhost:4566 dynamodb create-table --cli-input-json file://scripts/rushing-schema.json
+
+aws --endpoint-url=http://localhost:4566 dynamodb delete-table --table-name players
+
+aws --endpoint-url=http://localhost:4566 dynamodb list-tables
+
+aws --endpoint-url=http://localhost:4566 dynamodb scan --table-name players
+
+aws --endpoint-url=http://localhost:4566 dynamodb query --table-name players --index-name gsi1 --key-condition-expression "PlayerStatus=:PlayerStatus and Player=:Player" --expression-attribute-values file://test-query.json
+
+aws --endpoint-url=http://localhost:4566 dynamodb list-tables

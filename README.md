@@ -75,19 +75,22 @@ If you have any questions regarding requirements, do not hesitate to email your 
     ```bash
     npm run loadData
     ```
-8. Start local angular server and start using the webapp at http://localhost:4200/
+8. Start local angular server and start using the webapp in your browser at http://localhost:4200/
     ```bash
     npm run start
     ```
 
 Known limitations
 1. An API server is always required for access control and to protect the database/backend. However due to time limitation and no data transformation or calculation required, it was not implemented for this interview. 
-2. Filter by name is case sensitive. Ideally it should not be. A solution is to load name in all lower cases (maybe even alternative spell) in a separate attribute as all lower case and use for searching purposes.
-3. During data loading, UUID collision is not handled. It did not happen during 20k load test. But it should be handled by retry for production work.
+2. Filter by name is case sensitive. Ideally it should not be. A solution is to store name in all lower cases (maybe even alternative spell) in a separate attribute and use for searching purpose.
+3. Lazy loading is not implemented. May affect old devices, browsers, and/or slow network.  One way to implement this is utilize DynamoDB's 1MB payload limit. Extra DynamoDB request can be made when needed. (Download feature would still require query all)
+4. During data loading, UUID collision is not handled. It did not happen during my 20k load test. But it should be handled by retry for production work.
 
-Tested with 10106 (10k+) records, by loading the provided data 31 times over. in Chrome and Edge. Data payload is 4MB. UI is very responsive.
+Tested with 10106 (10k+) records, by loading the provided data 31 times over. Data payloads are 4MB. 
 
-Tested with 19886 (20k) records, by loading the provided data 61 times over. in Chrome and Edge. Data payload is 8MB. UI is very responsive.
+Tested with 19886 (~20k) records, by loading the provided data 61 times over. Data payloads are 8MB. 
+
+In Chrome, Edge, Firefox and Safari. UI is very responsive. All features work as intended.
 
 As a result, the author has determined that lazy loading is not required here for modern browser/network to support 10k records. While the database design can easily support over 1 million lines.
 

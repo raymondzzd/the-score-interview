@@ -1,8 +1,9 @@
-import {Component, OnInit, ViewChild} from '@angular/core';
-import {MatPaginator} from '@angular/material/paginator';
-import {MatTableDataSource} from '@angular/material/table';
-import {PlayerDataModel} from "../base/model/PlayerDataModel";
-import {dynamoDBClient} from "../base/api/DynamoDBClient";
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { MatPaginator } from '@angular/material/paginator';
+import { MatTableDataSource } from '@angular/material/table';
+import { PlayerDataModel } from "../base/model/PlayerDataModel";
+import { dynamoDBClient } from "../base/api/DynamoDBClient";
+import { CsvUtils, DateUtils, PLAYER_DATA_KEYS } from "../base/utilities";
 
 @Component({
   selector: 'app-rushing',
@@ -16,7 +17,7 @@ export class RushingComponent implements OnInit {
   filterText: string;
   data: PlayerDataModel[];
   sortBy: string;
-  sortOrder : boolean;
+  sortOrder: boolean;
   searching: boolean;
 
   constructor() {
@@ -24,7 +25,7 @@ export class RushingComponent implements OnInit {
     this.sortBy = 'gsi1';
     this.sortOrder = false;
     this.searching = false;
-    this.displayedColumns = ['Player', 'Team', 'Pos', 'Att', 'AttG', 'Yds', 'Avg', 'YdsG', 'TD', 'Lng', 'LngTD', 'First', 'FirstPercent', 'TwentyPlus', 'FortyPlus', 'FUM'];
+    this.displayedColumns = PLAYER_DATA_KEYS;
   }
 
   async ngOnInit(): Promise<void> {
@@ -35,9 +36,8 @@ export class RushingComponent implements OnInit {
     console.debug("doFilter has been called");
     if (input && !/^ *$/.test(input)) {
       this.searching = true;
-      this.data = await dynamoDBClient.getByPlayerName(this.sortBy, this.sortOrder, input.trim());
+      this.data = await dynamoDBClient.queryPlayerDataWithFilter(this.sortBy, this.sortOrder, input.trim());
       this.dataSource = new MatTableDataSource(this.data);
-      // this.dataSource.sort = this.sort;
       this.dataSource.paginator = this.paginator;
     } else {
       await this.reloadData();
@@ -48,9 +48,12 @@ export class RushingComponent implements OnInit {
     this.searching = false;
     this.filterText = '';
     console.debug("reloadData has been called");
-    this.data = await dynamoDBClient.getAllData(this.sortBy, this.sortOrder);
+    this.data = await dynamoDBClient.queryPlayerData(this.sortBy, this.sortOrder);
     this.dataSource = new MatTableDataSource(this.data);
-    // this.dataSource.sort = this.sort;
     this.dataSource.paginator = this.paginator;
+  }
+
+  downloadCsv() {
+    CsvUtils.generateCsv("Player_Data_" + DateUtils.getDateFormatted('en-ca') + ".csv", this.data);
   }
 }

@@ -9,6 +9,7 @@
     <mat-icon>search</mat-icon>
   </button>
 </mat-form-field>
+<button mat-raised-button class="download-button" (click)="downloadCsv()" color="primary" >Download</button>
 <br>
 <mat-form-field appearance="fill">
   <mat-label>Sort the players by</mat-label>
@@ -18,7 +19,7 @@
     <mat-option value="gsi3">Total Rushing Touchdowns</mat-option>
   </mat-select>
 </mat-form-field>
-<mat-form-field appearance="fill">
+<mat-form-field appearance="fill" class="sort-dropdown">
   <mat-label>Sort order</mat-label>
   <mat-select [(value)]="sortOrder" (selectionChange)="reloadData()">
     <mat-option value=false>Descending</mat-option>

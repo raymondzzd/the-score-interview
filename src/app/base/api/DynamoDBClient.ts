@@ -12,13 +12,6 @@ class DynamoDBClient {
     });
   }
 
-  getDynamoDBClient = (): DynamoDB => {
-    const ddb: DynamoDB = new DynamoDB({
-      endpoint: 'http://localhost:4566'
-    });
-    return ddb;
-  };
-
   getDynamoDBDocumentClient = (): DynamoDB.DocumentClient => {
     const ddb: DynamoDB.DocumentClient = new DynamoDB.DocumentClient({
       endpoint: 'http://localhost:4566'
@@ -54,7 +47,13 @@ class DynamoDBClient {
     }
   }
 
-  async getAllData(gsi: string, sortOrder: boolean): Promise<PlayerDataModel[]> {
+  /**
+   * Query all player data using one of the gsi, sort descending or ascending
+   *
+   * @param gsi Query with gsi
+   * @param sortOrder sort order
+   */
+  async queryPlayerData(gsi: string, sortOrder: boolean): Promise<PlayerDataModel[]> {
     const params: DocumentClient.QueryInput = {
       TableName: "players",
       IndexName: gsi,
@@ -73,7 +72,14 @@ class DynamoDBClient {
     }
   }
 
-  async getByPlayerName(gsi: string, sortOrder: boolean, filter: string): Promise<PlayerDataModel[]> {
+  /**
+   * Query all player data using one of the gsi, sort descending or ascending, filter by partial player name
+   *
+   * @param gsi Query with gsi
+   * @param sortOrder sort order
+   * @param filter filter partial player name text
+   */
+  async queryPlayerDataWithFilter(gsi: string, sortOrder: boolean, filter: string): Promise<PlayerDataModel[]> {
     const params: DocumentClient.QueryInput = {
       TableName: "players",
       IndexName: gsi,
