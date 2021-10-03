@@ -54,7 +54,7 @@ class DynamoDBClient {
     }
   }
 
-  async getAllData(gsi: string): Promise<PlayerDataModel[]> {
+  async getAllData(gsi: string, sortOrder: boolean): Promise<PlayerDataModel[]> {
     const params: DocumentClient.QueryInput = {
       TableName: "players",
       IndexName: gsi,
@@ -62,7 +62,7 @@ class DynamoDBClient {
       ExpressionAttributeValues: {
         ":PlayerStatus": "ACTIVE"
       },
-      ScanIndexForward: false
+      ScanIndexForward: sortOrder
     };
     try {
       console.debug(`Params: ${JSON.stringify(params)}`);
@@ -73,7 +73,7 @@ class DynamoDBClient {
     }
   }
 
-  async getByPlayerName(gsi: string, filter: string): Promise<PlayerDataModel[]> {
+  async getByPlayerName(gsi: string, sortOrder: boolean, filter: string): Promise<PlayerDataModel[]> {
     const params: DocumentClient.QueryInput = {
       TableName: "players",
       IndexName: gsi,
@@ -83,7 +83,7 @@ class DynamoDBClient {
         ":PlayerName": filter
       },
       FilterExpression: 'contains (Player, :PlayerName)',
-      ScanIndexForward: false
+      ScanIndexForward: sortOrder
     };
     try {
       console.debug(`Params: ${JSON.stringify(params)}`);

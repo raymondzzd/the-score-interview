@@ -75,4 +75,7 @@ If you have any questions regarding requirements, do not hesitate to email your 
     ```bash
     npm run loadData
     ```
-8. 
+8. Start local angular server and start using the webapp at http://localhost:4200/
+    ```bash
+    npm run start
+    ```

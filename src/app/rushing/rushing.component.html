@@ -1,21 +1,28 @@
 <mat-form-field appearance="fill">
   <mat-label>Filter by name</mat-label>
   <input matInput type="text" name='filter' [(ngModel)]="filterText" (click)="doFilter(input.value)" (keydown.enter)="doFilter(input.value)" #input/>
-  <button mat-icon-button matSuffix (click)="input.value = ''; doFilter(''); searching = false" color="accent"
+  <button mat-icon-button matSuffix (click)="input.value = ''; doFilter(''); searching = false" color="primary"
           *ngIf="searching">
     <mat-icon>clear</mat-icon>
   </button>
-  <button mat-icon-button matSuffix (click)="doFilter(input.value)" color="accent">
+  <button mat-icon-button matSuffix (click)="doFilter(input.value)" color="primary">
     <mat-icon>search</mat-icon>
   </button>
 </mat-form-field>
 <br>
 <mat-form-field appearance="fill">
   <mat-label>Sort the players by</mat-label>
-  <mat-select [(value)]="selected" (selectionChange)="reloadData()">
+  <mat-select [(value)]="sortBy" (selectionChange)="reloadData()">
     <mat-option value="gsi1">Total Rushing Yards</mat-option>
     <mat-option value="gsi2">Longest Rush</mat-option>
     <mat-option value="gsi3">Total Rushing Touchdowns</mat-option>
+  </mat-select>
+</mat-form-field>
+<mat-form-field appearance="fill">
+  <mat-label>Sort order</mat-label>
+  <mat-select [(value)]="sortOrder" (selectionChange)="reloadData()">
+    <mat-option value=false>Descending</mat-option>
+    <mat-option value=true>Ascending</mat-option>
   </mat-select>
 </mat-form-field>
 
