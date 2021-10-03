@@ -11,16 +11,20 @@ import {dynamoDBClient} from "../base/api/DynamoDBClient";
 })
 export class RushingComponent implements OnInit {
   @ViewChild(MatPaginator) paginator: MatPaginator;
-  displayedColumns: string[] = ['Player', 'Team', 'Pos', 'Att', 'AttG', 'Yds', 'Avg', 'YdsG', 'TD', 'Lng', 'LngTD', 'First', 'FirstPercent', 'TwentyPlus', 'FortyPlus', 'FUM'];
+  displayedColumns: string[];
   dataSource: any;
-  searching: boolean = false;
-  filterText: string = '';
+  filterText: string;
   data: PlayerDataModel[];
-  sortBy = 'gsi1';
-  sortOrder = false;
+  sortBy: string;
+  sortOrder : boolean;
+  searching: boolean;
 
   constructor() {
-
+    this.filterText = '';
+    this.sortBy = 'gsi1';
+    this.sortOrder = false;
+    this.searching = false;
+    this.displayedColumns = ['Player', 'Team', 'Pos', 'Att', 'AttG', 'Yds', 'Avg', 'YdsG', 'TD', 'Lng', 'LngTD', 'First', 'FirstPercent', 'TwentyPlus', 'FortyPlus', 'FUM'];
   }
 
   async ngOnInit(): Promise<void> {
@@ -31,7 +35,7 @@ export class RushingComponent implements OnInit {
     console.debug("doFilter has been called");
     if (input && !/^ *$/.test(input)) {
       this.searching = true;
-      this.data = await dynamoDBClient.getByPlayerName(this.sortBy, this.sortOrder, input);
+      this.data = await dynamoDBClient.getByPlayerName(this.sortBy, this.sortOrder, input.trim());
       this.dataSource = new MatTableDataSource(this.data);
       // this.dataSource.sort = this.sort;
       this.dataSource.paginator = this.paginator;

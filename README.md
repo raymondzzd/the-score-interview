@@ -79,3 +79,15 @@ If you have any questions regarding requirements, do not hesitate to email your 
     ```bash
     npm run start
     ```
+
+Known limitations
+1. An API server is always required for access control and to protect the database/backend. However due to time limitation and no data transformation or calculation required, it was not implemented for this interview. 
+2. Filter by name is case sensitive. Ideally it should not be. A solution is to load name in all lower cases (maybe even alternative spell) in a separate attribute as all lower case and use for searching purposes.
+3. During data loading, UUID collision is not handled. It did not happen during 20k load test. But it should be handled by retry for production work.
+
+Tested with 10106 (10k+) records, by loading the provided data 31 times over. in Chrome and Edge. Data payload is 4MB. UI is very responsive.
+
+Tested with 19886 (20k) records, by loading the provided data 61 times over. in Chrome and Edge. Data payload is 8MB. UI is very responsive.
+
+As a result, the author has determined that lazy loading is not required here for modern browser/network to support 10k records. While the database design can easily support over 1 million lines.
+
