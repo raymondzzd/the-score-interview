@@ -55,27 +55,28 @@ If you have any questions regarding requirements, do not hesitate to email your 
 
 ### Installation and running this solution
 1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop)
-2. Pull [localstack](https://github.com/localstack/localstack) repo and run at port 4566
+2. Run localstack in Docker. Forward port 4566. Disable CORS check.
     ```bash
     docker run -d --rm -it -p 4566:4566 -p 4571:4571 -e DISABLE_CORS_CHECKS=1 localstack/localstack
     ```
 3. Install [node.js v14.x](https://nodejs.org/en/download/)
-4. Upgrade npm to v7.x, then install the project packages specified in `package.json`
+4. Change directory to root of this project.
+5. Upgrade npm to v7.x, then install the project packages specified in `package.json`.
     ```bash
     npm install -g npm@latest
     npm install
     ```
-5. Install [aws-cli 2.x](https://aws.amazon.com/cli/)
-6. Create DynamoDB table as specified in `scripts/rushing-schema.json`. When list table, you should see table with the name `players`
+6. Install [aws-cli 2.x](https://aws.amazon.com/cli/)
+7. Create DynamoDB table as specified in `scripts/rushing-schema.json`. When list table, you should see table with the name `players`.
     ```bash
     aws --endpoint-url=http://localhost:4566 dynamodb create-table --cli-input-json file://scripts/rushing-schema.json
     aws --endpoint-url=http://localhost:4566 dynamodb list-tables
     ```
-7. Load data from `rushing.json` into DDB using my script. You should see "Script completed." with no error messages after.
+8. Load data from `rushing.json` into DDB using my script. You should see "Script completed." with no error messages after.
     ```bash
     npm run loadData
     ```
-8. Start local angular server and start using the webapp in your browser at http://localhost:4200/
+9. Start local angular server and start using the webapp in your browser at http://localhost:4200/
     ```bash
     npm run start
     ```
