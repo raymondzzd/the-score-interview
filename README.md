@@ -66,7 +66,18 @@ If you have any questions regarding requirements, do not hesitate to email your 
     npm install -g npm@latest
     npm install
     ```
-6. Install [aws-cli 2.x](https://aws.amazon.com/cli/)
+6. Install [aws-cli v2](https://aws.amazon.com/cli/) and run `aws configure`, input the config as the following
+    ```bash
+    $ aws configure
+    AWS Access Key ID [None]: foo
+    AWS Secret Access Key [None]: bar
+    Default region name [None]: us-east-1
+    Default output format [None]: json
+    
+    // This step will create ~/.aws direcotry, with config and credentials file inside
+    // These two file contains the aws-cli default
+    // localstack does not care about the key/secret pair
+    ```
 7. Create DynamoDB table as specified in `scripts/rushing-schema.json`. When list table, you should see table with the name `players`.
     ```bash
     aws --endpoint-url=http://localhost:4566 dynamodb create-table --cli-input-json file://scripts/rushing-schema.json
