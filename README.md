@@ -55,16 +55,16 @@ If you have any questions regarding requirements, do not hesitate to email your 
 
 ### Installation and running this solution
 1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop)
-2. Run localstack in Docker. Forward port 4566. Disable CORS check.
+2. In your terminal of choice, use the following command to run localstack in Docker, forward port 4566, and disable CORS check.
     ```bash
-    docker run -d --rm -it -p 4566:4566 -p 4571:4571 -e DISABLE_CORS_CHECKS=1 localstack/localstack
+    $ docker run -d --rm -it -p 4566:4566 -p 4571:4571 -e DISABLE_CORS_CHECKS=1 localstack/localstack
     ```
 3. Install [node.js v14.x](https://nodejs.org/en/download/)
-4. Change directory to root of this project.
+4. In your terminal, change directory to root of this project.
 5. Upgrade npm to v7.x, then install the project packages specified in `package.json`.
     ```bash
-    npm install -g npm@latest
-    npm install
+    $ npm install -g npm@latest
+    $ npm install
     ```
 6. Install [aws-cli v2](https://aws.amazon.com/cli/) and run `aws configure`, input the config as the following
     ```bash
@@ -74,22 +74,23 @@ If you have any questions regarding requirements, do not hesitate to email your 
     Default region name [None]: us-east-1
     Default output format [None]: json
     
-    // This step will create ~/.aws direcotry, with config and credentials file inside
+    // This step will create ~/.aws directory, with config and credentials file inside
     // These two file contains the aws-cli default
     // localstack does not care about the key/secret pair
     ```
 7. Create DynamoDB table as specified in `scripts/rushing-schema.json`. When list table, you should see table with the name `players`.
     ```bash
-    aws --endpoint-url=http://localhost:4566 dynamodb create-table --cli-input-json file://scripts/rushing-schema.json
-    aws --endpoint-url=http://localhost:4566 dynamodb list-tables
+    $ aws --endpoint-url=http://localhost:4566 dynamodb create-table --cli-input-json file://scripts/rushing-schema.json
+    // optional, just a sanity check
+    $ aws --endpoint-url=http://localhost:4566 dynamodb list-tables
     ```
 8. Load data from `rushing.json` into DDB using my script. You should see "Script completed." with no error messages after.
     ```bash
-    npm run loadData
+    $ npm run loadData
     ```
 9. Start local angular server and start using the webapp in your browser at http://localhost:4200/
     ```bash
-    npm run start
+    $ npm run start
     ```
 
 Known limitations
