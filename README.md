@@ -54,6 +54,10 @@ We will evaluate you on your ability to solve the problem defined in the require
 If you have any questions regarding requirements, do not hesitate to email your contact at theScore for clarification.
 
 ### Installation and running this solution
+The following instruction is for local development and debug. It does not require access to any real AWS services or an AWS account.
+
+The DynamoDB runs in localstack docker container.
+
 1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop)
 2. In your terminal of choice, use the following command to run localstack in Docker, forward port 4566, and disable CORS check.
     ```bash
@@ -76,17 +80,28 @@ If you have any questions regarding requirements, do not hesitate to email your 
     
     // This step will create ~/.aws directory, with config and credentials file inside
     // These two file contains the aws-cli default
-    // localstack does not care about the key/secret pair
+    // localstack does not care about the key pair
     ```
-7. Create DynamoDB table as specified in `scripts/rushing-schema.json`. When list table, you should see table with the name `players`.
+7. Create DynamoDB table as specified in `scripts/rushing-schema.json`. When list tables, you should see table with the name `players`.
     ```bash
     $ aws --endpoint-url=http://localhost:4566 dynamodb create-table --cli-input-json file://scripts/rushing-schema.json
-    // optional, just a sanity check
+    
+    // Optional, just a sanity check
     $ aws --endpoint-url=http://localhost:4566 dynamodb list-tables
+    {
+        "TableNames": [
+            "players"
+        ]
+    }
     ```
-8. Load data from `rushing.json` into DDB using my script. You should see "Script completed." with no error messages after.
+8. Load data from `rushing.json` into DynamoDB using my script. You should see "Script completed." with no error messages after.
     ```bash
     $ npm run loadData
+    Script started...
+    Script completed.
+
+    // Optional, another check. You should see one result
+    $ aws --endpoint-url=http://localhost:4566 dynamodb query --table-name players --index-name gsi1 --key-condition-expression "PlayerStatus=:PlayerStatus and Yds=:Yds" --expression-attribute-values file://scripts/test-query.json
     ```
 9. Start local angular server and start using the webapp in your browser at http://localhost:4200/
     ```bash
